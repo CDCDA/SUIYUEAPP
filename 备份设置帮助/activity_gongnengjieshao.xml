@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#FFFFCC">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <TextView
+        android:id="@+id/gongneng1"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/toolbar4"
+        android:text="功能1：XXX"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/gongneng2"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/gongneng1"
+        android:text="功能2：XXX"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/gongneng3"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/gongneng2"
+        android:text="功能3：XXX"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/gongneng4"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/gongneng3"
+        android:text="功能4：XXX"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/gongneng5"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/gongneng4"
+        android:text="功能5：XXX"
+        android:textSize="30dp"/>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".log_in">
+
+    <EditText
+        android:id="@+id/zhanghu"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="58dp"
+        android:background="@drawable/user"
+        android:hint="账户"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/mima"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mima"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="66dp"
+        android:background="@drawable/user"
+        android:drawablePadding="5dp"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:textColor="#FFAD33"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zhanghu" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="222dp"
+        android:text="登录"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mima" />
+</androidx.constraintlayout.widget.ConstraintLayout>
